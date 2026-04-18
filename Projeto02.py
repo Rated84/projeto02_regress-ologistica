@@ -24,8 +24,8 @@ y = heart_disease.data.targets
 
 df = pd.concat([X, y], axis=1)
 
-print(df.head()) 
-print(df.head())
+print(df) 
+print(df)
 
 
 df['ca'] = df['ca'].fillna(df['ca'].median())
